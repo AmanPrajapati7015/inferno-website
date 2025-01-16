@@ -1,0 +1,80 @@
+'use client'
+
+import { motion } from 'framer-motion'
+import { useState, useEffect } from 'react'
+
+const newsItems = [
+  {
+    title: "Inferno Wins First Place in URC 2024",
+    date: "June 15, 2024",
+    description: "Our team showcased exceptional performance in the University Rover Challenge, securing the top position."
+  },
+  {
+    title: "New AI Algorithm Enhances Rover Navigation",
+    date: "May 3, 2024",
+    description: "Our software team has developed a groundbreaking AI algorithm that significantly improves the rover's autonomous navigation capabilities."
+  },
+  {
+    title: "Inferno Secures Major Sponsorship",
+    date: "April 12, 2024",
+    description: "We're thrilled to announce a new partnership with TechCorp, providing us with cutting-edge equipment for our rover."
+  }
+]
+
+export default function InfernoNews() {
+  const [activeIndex, setActiveIndex] = useState(0)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveIndex((prevIndex) => (prevIndex + 1) % newsItems.length)
+    }, 5000) // Change news item every 5 seconds
+
+    return () => clearInterval(interval)
+  }, [])
+
+  return (
+    <section className="py-20 bg-gray-900">
+      <div className="container mx-auto px-6">
+        <h2 className="text-4xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-orange-500">
+          Inferno News
+        </h2>
+        <div className="relative">
+          <div className="overflow-hidden">
+            <motion.div
+              className="flex"
+              animate={{ x: `${-activeIndex * 100}%` }}
+              transition={{ type: "spring", stiffness: 300, damping: 30 }}
+            >
+              {newsItems.map((item, index) => (
+                <div key={index} className="w-full flex-shrink-0 px-4">
+                  <motion.div
+                    className="bg-gray-800 rounded-lg p-6 h-full"
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5 }}
+                  >
+                    <h3 className="text-xl font-bold mb-2">{item.title}</h3>
+                    <p className="text-sm text-gray-400 mb-4">{item.date}</p>
+                    <p className="text-gray-300">{item.description}</p>
+                  </motion.div>
+                </div>
+              ))}
+            </motion.div>
+          </div>
+          <div className="flex justify-center mt-8">
+            {newsItems.map((_, index) => (
+              <button
+                key={index}
+                className={`w-3 h-3 rounded-full mx-2 ${
+                  index === activeIndex ? 'bg-red-500' : 'bg-gray-500'
+                }`}
+                onClick={() => setActiveIndex(index)}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
