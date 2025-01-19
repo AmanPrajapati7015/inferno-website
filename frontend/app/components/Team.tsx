@@ -10,14 +10,14 @@ const teamMembers = [
   {
     name: 'Garvit Jain',
     role: 'Team Lead and Mechanical Lead',
-    image: '/garvit.jpg',
+    image: '/photosenior/garvit.jpg',
     linkedin: 'https://www.linkedin.com/in/janedoe',
     bio: 'Jane is an experienced robotics engineer with a passion for Mars exploration.'
   },
   {
     name: 'Rachit Sharma',
     role: 'Team Manager',
-    image: '/rachit.jpeg',
+    image: '/photosenior/rachit.jpeg',
     linkedin: 'https://www.linkedin.com/in/bobwilliams',
     bio: 'Bob designs power systems and communication modules for our rover.'
   },
@@ -25,7 +25,7 @@ const teamMembers = [
   {
     name: 'Samriddh Sinha',
     role: 'Vice Captain and Science Lead',
-    image: '/samriddh.jpg',
+    image: '/photosenior/samriddh.jpg',
     linkedin: 'https://www.linkedin.com/in/bobwilliams',
     bio: 'Bob designs power systems and communication modules for our rover.'
   },
@@ -33,7 +33,7 @@ const teamMembers = [
   {
     name: 'Hitesh Nanda',
     role: 'Team Treasurer',
-    image: '/hitesh.jpg',
+    image: '/photosenior/hitesh.jpg',
     linkedin: 'https://www.linkedin.com/in/bobwilliams',
     bio: 'Bob designs power systems and communication modules for our rover.'
   },
@@ -41,21 +41,21 @@ const teamMembers = [
   {
     name: 'Ayush Yadav',
     role: 'Electrical Lead',
-    image: '/aayush.jpg',
+    image: '/photosenior/aayush.jpg',
     linkedin: 'https://www.linkedin.com/in/bobwilliams',
     bio: 'Bob designs power systems and communication modules for our rover.'
   },
   {
     name: 'Anshumaan',
     role: 'Software Lead',
-    image: '/anshuman.jpg',
+    image: '/photosenior/anshuman.jpg',
     linkedin: 'https://www.linkedin.com/in/johnsmith',
     bio: 'John specializes in designing robust mechanical systems for extreme environments.'
   },
   {
     name: 'Satyam Gupta',
     role: 'Autonomus Lead',
-    image: '/satyam.jpg',
+    image: '/photosenior/satyam.jpg',
     linkedin: 'https://www.linkedin.com/in/alicejohnson',
     bio: 'Alice is an AI expert, focusing on autonomous navigation systems.'
   },
@@ -72,14 +72,14 @@ export default function Team() {
         style={{
           width: "100%",
           height: "90vh",
-          backgroundImage: "url('/website team.jpg')",
+          backgroundImage: "url('/our-team-banner.jpg')",
           backgroundAttachment: "fixed",
         }}
       >
       </div>
       <div className='bg-gray-900 p-5'>
         <Block heading="Core Members" teamMembers={teamMembers} />
-        <Block heading="Junior Members" teamMembers={teamMembers} />
+        {/* <Block heading="Junior Members" teamMembers={teamMembers} /> */}
       </div>
     </>
 

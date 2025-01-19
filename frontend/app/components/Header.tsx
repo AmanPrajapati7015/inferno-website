@@ -16,8 +16,7 @@ const menuItems = [
   {
     name: 'More',
     submenu: [
-      { name: 'Timeline', path: '/timeline' },
-      { name: 'Community', path: '/community' }
+      { name: 'Timeline', path: '/timeline' }
     ],
   },
 ]
