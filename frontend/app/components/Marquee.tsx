@@ -1,3 +1,4 @@
+"use client"
 import React, {useEffect, useRef} from 'react';
 import './marque.css'; // Import the CSS for styling
 

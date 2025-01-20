@@ -4,7 +4,6 @@ import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { Linkedin } from 'lucide-react'
 import Link from 'next/link'
-import { FunnelChart } from 'recharts'
 
 const teamMembers = [
   {

@@ -11,6 +11,18 @@ const sponsorshipLevels = [
   { name: 'Bronze', amount: 'Up to ₹99,999', benefits: ['Name listed on website', 'Team updates and newsletter', 'Social media shoutout'] },
 ]
 
+
+const sponsors_logo = [
+  "/sponsors/nvidia_logo.jpg",
+  "/sponsors/altium.png",
+  "/sponsors/ansys_logo.png",
+  "/sponsors/solidworks_logo.png",
+  "/sponsors/indiacircuits.png",
+  "/sponsors/neutronium.png",
+  "/sponsors/69rigs.png",
+
+];
+
 export default function SponsorshipDetails() {
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -18,19 +30,10 @@ export default function SponsorshipDetails() {
   })
 
 
-  const images = [
-    "/sponsors/nvidia_logo.jpg",
-    "/sponsors/altium.png",
-    "/sponsors/ansys_logo.png",
-    "/sponsors/solidworks_logo.png",
-    "/sponsors/indiacircuits.png",
-    "/sponsors/neutronium.png",
-    "/sponsors/69rigs.png",
-
-  ];
+ 
   return (
     <>
-      <Marquee images={images}/>
+      <Marquee images={sponsors_logo}/>
 
       <section ref={ref} className="py-20 bg-gray-900">
         <div className="container mx-auto px-6">

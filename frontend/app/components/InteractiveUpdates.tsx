@@ -28,7 +28,7 @@ export default function InteractiveUpdates() {
   })
 
   return (
-    <section ref={ref} className="py-20 bg-black">
+    <section ref={ref} className="py-20 " style={{backgroundColor: 'rgb(19, 24, 30)'}}>
       <div className="container mx-auto px-6">
         <motion.h2
           className="text-4xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-orange-500"

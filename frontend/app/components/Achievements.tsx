@@ -6,29 +6,35 @@ import { useInView } from 'react-intersection-observer'
 const achievements = [
   {
     year: '2024',
-    title: 'First Place in University Rover Challenge',
-    description: 'Our team secured the top position in the prestigious University Rover Challenge, showcasing our rover\'s exceptional capabilities.'
+    title: 'Best Project Management in IRC 2024',
+    description: 'Received Award for  Best Project Management in the International Rover Challenge 2024 and bagged 4th position globally.'
   },
   {
     year: '2023',
-    title: 'Best Innovation Award',
-    description: 'Received recognition for our groundbreaking AI-driven navigation system at the International Conference on Robotics and Automation.'
+    title: 'Best Project Management IRC 2023',
+    description: 'Participated and recieved award for “Best Project Management” in International Rover Challenge 2023 held at Presidency University, Yelehanka, Bangalore, India.'
+  },
+  {
+    year: '2023',
+    title: 'Ranked 8th in International Rover Design',
+    description: 'Ranked 8th in International Rover Design Challenge 2023 organised by Space Robotic Society.'
   },
   {
     year: '2022',
-    title: 'NASA Space Apps Challenge Winner',
-    description: 'Our team\'s innovative solution for Martian resource utilization won first place in the global NASA Space Apps Challenge.'
+    title: 'Ranked 8th in European Rover Challenge',
+    description: 'Ranked 8th in European Rover Challenge 2022 Remote Edition.'
   },
   {
-    year: '2021',
-    title: 'Patent for Novel Wheel Design',
-    description: 'Successfully patented our unique wheel design, optimized for traversing challenging Martian terrain.'
+    year: '2022',
+    title: 'Ranked 10th in International Rover Design',
+    description: 'Ranked 10th in International Rover Design Challenge 2022 organised by Space Robotics Society. '
   },
   {
-    year: '2020',
-    title: 'Best Technical Paper',
-    description: 'Our research on advanced power systems for Mars rovers was awarded the Best Technical Paper at the International Astronautical Congress.'
+    year: "2022",
+    title: '  "Ranked 26th in University Rover Challenge",',
+    description: 'Ranked 26th in University Rover Challenge 2022 at Mars Desert Research Center, Utah, USA.'
   }
+  
 ]
 
 export default function Achievements() {
