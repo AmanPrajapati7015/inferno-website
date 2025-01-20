@@ -33,14 +33,13 @@ export default function CallToAction() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          <button
-            onClick={() => {
-              document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
-            }}
-            className="bg-red-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-red-700 transition-colors inline-block mr-4"
-          >
-            Get in Touch
-          </button>
+          <Link href="/contact-us" >
+            <button
+              className="bg-red-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-red-700 transition-colors inline-block mr-4"
+            >
+              Get in Touch
+            </button>
+          </Link>
           <Link href="/sponsorship" className="bg-transparent border-2 border-red-600 text-red-600 px-8 py-3 rounded-full text-lg font-semibold hover:bg-red-600 hover:text-white transition-colors inline-block">
             Sponsor Now
           </Link>

@@ -10,14 +10,14 @@ const competitions = [
     date: "28th January - 2nd February, 2025",
   },
   {
-    name: "European Rover Challenge",
-    description: "Europe's largest space and robotics event, focusing on Mars exploration technologies.",
-    date: "September 2024",
+    name: "International Space Drone Challenge 2025",
+    description: "To be held on 1st February, 2025, it challenges university students to conceptualise, design, develop and operate an astronaut-assistive next-generation space drone and perform specific missions in Mars simulated conditions.",
+    date: "1st February, 2025",
   },
   {
-    name: "Indian Rover Challenge",
-    description: "A national-level competition showcasing the best rover designs from across India.",
-    date: "November 2024",
+    name: "International Rover Design Challenge, 2025",
+    description: "It is an online space engineering design and research competetion by Space Robotics Society.",
+    date: "2nd February, 2025",
   },
 ]
 
@@ -28,7 +28,15 @@ export default function Competitions() {
   })
 
   return (
-    <section ref={ref} className="py-20 bg-gray-900">
+    <>
+    <div className="absolute inset-0 bg-black bg-opacity-10"></div>
+    <section ref={ref} className="py-20 "
+    
+      style={{
+        backgroundImage:"url('/upcomming_comp.png')",
+        backgroundSize:'cover',
+        backgroundAttachment:'fixed'
+      }}>
       <div className="container mx-auto px-6">
         <motion.h2
           className="text-4xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-orange-500"
@@ -46,6 +54,7 @@ export default function Competitions() {
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: index * 0.1 }}
+              style={{backgroundColor:'rgb(31 41 55 / 85%)', borderRadius:'10px'}}
             >
               <h3 className="text-2xl font-bold mb-2">{competition.name}</h3>
               <p className="text-gray-300 mb-4">{competition.description}</p>
@@ -55,6 +64,8 @@ export default function Competitions() {
         </div>
       </div>
     </section>
+    </>
+
   )
 }
 
