@@ -5,32 +5,34 @@ import { useState, useEffect } from 'react'
 
 const newsItems = [
   {
-    title: "Inferno Wins First Place in URC 2024",
-    date: "June 15, 2024",
-    description: "Our team showcased exceptional performance in the University Rover Challenge, securing the top position."
+    title: "Qualified for the semi-finals in the International Rover Design Challenge",
+    date: "Januray 5, 2024",
+    description: "Inferno proudly secured a spot in the Top 12 at the International Rover Design Challenge (IRDC), showcasing innovation and engineering excellence on a global stage."
   },
   {
-    title: "New AI Algorithm Enhances Rover Navigation",
-    date: "May 3, 2024",
-    description: "Our software team has developed a groundbreaking AI algorithm that significantly improves the rover's autonomous navigation capabilities."
+    title: "Inferno x Robolution",
+    date: "January 20, 2025",
+    description: "An informative seminar, in collaboration with Robolution Society, hosted at IGDTUW."
   },
   {
     title: "Inferno Secures Major Sponsorship",
-    date: "April 12, 2024",
-    description: "We're thrilled to announce a new partnership with TechCorp, providing us with cutting-edge equipment for our rover."
+    date: "January 13, 2024",
+    description: "We're thrilled to announce a new partnership with Neutronium 3D, providing us with cutting-edge equipment for our rover."
   }
 ]
 
 export default function InfernoNews() {
   const [activeIndex, setActiveIndex] = useState(0)
+  const [isPaused, setIsPaused] = useState(false) // State to track hover status
 
   useEffect(() => {
+    if (isPaused) return // Stop the interval when paused
     const interval = setInterval(() => {
       setActiveIndex((prevIndex) => (prevIndex + 1) % newsItems.length)
-    }, 5000) // Change news item every 5 seconds
+    }, 3000)
 
     return () => clearInterval(interval)
-  }, [])
+  }, [isPaused]) // Re-run the effect when `isPaused` changes
 
   return (
     <section className="py-20 bg-gray-900">
@@ -38,7 +40,11 @@ export default function InfernoNews() {
         <h2 className="text-4xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-orange-500">
           Inferno News
         </h2>
-        <div className="relative">
+        <div
+          className="relative"
+          onMouseEnter={() => setIsPaused(true)} // Pause on hover
+          onMouseLeave={() => setIsPaused(false)} // Resume on leave
+        >
           <div className="overflow-hidden">
             <motion.div
               className="flex"
@@ -77,4 +83,3 @@ export default function InfernoNews() {
     </section>
   )
 }
-

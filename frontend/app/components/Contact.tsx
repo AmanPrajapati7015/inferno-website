@@ -95,16 +95,19 @@ function Details(){
       <div className="md:w-1/2 p-4">
         <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
         <p className="mb-2">
-          <span className="font-semibold">Address:</span> 123 Main Street, New York, NY 10001
+          <span className="font-semibold">Address:</span>
+          <p> Team Inferno Workshop, Opposite SPS-3,</p>
+          <p>Delhi Technological University,</p>
+          <p>New Delhi-110042</p>
         </p>
         <p className="mb-2">
-          <span className="font-semibold">Phone:</span> +1 (123) 456-7890
+          <span className="font-semibold">Phone:</span> +91 97117 30310
         </p>
         <p className="mb-2">
-          <span className="font-semibold">Email:</span> info@example.com
+          <span className="font-semibold">Email:</span> teaminferno@dtu.ac.in
         </p>
         <p>
-          <span className="font-semibold">Working Hours:</span> Mon - Fri: 9:00 AM - 6:00 PM
+          <span className="font-semibold">Working Hours:</span> We are open 24 hours
         </p>
       </div>
 

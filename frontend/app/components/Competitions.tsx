@@ -5,9 +5,9 @@ import { useInView } from 'react-intersection-observer'
 
 const competitions = [
   {
-    name: "University Rover Challenge",
-    description: "An annual competition to design and build the next generation of Mars rovers.",
-    date: "June 2024",
+    name: "International Rover Challenge 2025",
+    description: "Space Robotics Engineering competetion organised by Space Robotics Society (SPROS) challenging university students to conceptualise, design, develop and operate an astonaut-assistive next generation space rover and perform specific missions in Mars simulated conditions.",
+    date: "28th January - 2nd February, 2025",
   },
   {
     name: "European Rover Challenge",

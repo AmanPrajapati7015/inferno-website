@@ -5,18 +5,18 @@ import { useInView } from 'react-intersection-observer'
 
 const updates = [
   {
-    title: 'IRC 2025 Tasks and Missions',
-    content: 'Our team is gearing up for the challenging tasks at IRC 2025, including autonomous navigation, sample collection, and equipment servicing.',
+    title: 'Gearing Up for International Rover Challenge 2025',
+    content: 'Final testing Ongoing for the various on site tasks to be held.',
     image: '/irc-tasks.jpg',
   },
   {
-    title: 'Team Participation',
-    content: 'Inferno boasts a diverse team of 30 members from various engineering disciplines, including Mechanical, Electrical, and Computer Science.',
+    title: 'IRDC Presentation Submitted for the semi-finals',
+    content: 'A comprehensive approach on the given problem statement was submitted in the form of presentation which gave idea on how the Mother rover and Daughter Rover will behave under various parameters.',
     image: '/team-diversity.jpg',
   },
   {
-    title: 'Team Departure',
-    content: 'The Inferno team is set to depart for IRC 2025 on July 1st, 2025. Follow our journey as we represent our university on the global stage!',
+    title: 'Mars Base Challenge 2025 submission completed',
+    content: 'Comprehensive Concept report for starting and expanding a sustainable Mars habitat submitted as the result is awaited.  ',
     image: '/team-departure.jpg',
   },
 ]

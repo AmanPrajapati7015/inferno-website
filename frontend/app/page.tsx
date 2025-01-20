@@ -14,7 +14,6 @@ const images = [
   "/sponsors/indiacircuits.png",
   "/sponsors/neutronium.png",
   "/sponsors/69rigs.png",
-
 ];
 
 export default function Home() {

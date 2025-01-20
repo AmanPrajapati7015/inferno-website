@@ -31,18 +31,20 @@ export default function RoverDetails() {
         <div className="flex flex-col md:flex-row items-center justify-between mb-16">
           <motion.div
             className="w-full md:w-1/2 mb-8 md:mb-0"
+            style={{flex:'1 0 0', height: '300px'}}
             initial={{ opacity: 0, x: -50 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <img 
-              style={{height:'250px', width:'auto', margin:'auto'}}
+              style={{height:'100%', width:'100%',objectFit: "cover"}}
               src="/arohn.jpeg"
               alt="AROHN Rover"
               className="w-full h-auto rounded-lg shadow-lg" />
           </motion.div>
           <motion.div
             className="w-full md:w-1/2 md:pl-12"
+            style={{flex:'1 0 0'}}
             initial={{ opacity: 0, x: 50 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.4 }}

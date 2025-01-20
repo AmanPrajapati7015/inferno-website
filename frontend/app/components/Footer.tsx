@@ -8,10 +8,10 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="text-center md:text-left mb-4 md:mb-0">
             <p className="text-gray-400">© 2024 InfernoDTU. All rights reserved.</p>
-            <p className="text-gray-500 mt-2">Desgined by Bipul, Made with love by Aman.</p>
+            <p className="text-gray-500 mt-2">Made with Love by Bipul & Aman.</p>
           </div>
           <div className="flex space-x-4">
-            <Link href="https://www.instagram.com/infernodtu" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+            <Link href="https://www.instagram.com/inferno.dtu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
               <Instagram size={24} />
             </Link>
             <Link href="https://twitter.com/infernodtu" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">

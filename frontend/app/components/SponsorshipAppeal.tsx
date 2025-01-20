@@ -47,7 +47,7 @@ export default function SponsorshipAppeal() {
           transition={{ duration: 0.5, delay: 0.4 }}
         >
           <a
-            href="/sponsorship-brochure.pdf"
+            href="/brochure.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-red-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-red-700 transition-colors inline-block"
