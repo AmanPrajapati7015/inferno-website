@@ -8,14 +8,15 @@ import { ChevronDown } from 'lucide-react'
 const menuItems = [
   { name: 'Home', path: '/' },
   { name: 'Mission', path: '/mission' },
+  { name: 'IRC', path: '/irc' },
   { name: 'About Rover', path: '/about-rover' },
   { name: 'Achievements', path: '/achievements' },
-  { name: 'Our Team', path: '/our-team' },
   { name: 'Sponsorship', path: '/sponsorship' },
   { name: 'Contact us', path: '/contact-us' },
   {
     name: 'More',
     submenu: [
+      { name: 'Our Team', path: '/our-team' },
       { name: 'Timeline', path: '/timeline' }
     ],
   },

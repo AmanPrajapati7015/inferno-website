@@ -35,37 +35,43 @@ export default function Contact() {
           <input type="checkbox" name="botcheck" className="hidden" style={{display:"none"}}/>
           <div className="mb-6">
             <label htmlFor="name" className="block mb-2 text-sm font-medium">
-              Name
+              Name*
             </label>
             <input
               type="text"
               id="name"
               name="name"
-              className="w-full px-3 py-2 text-gray-900 bg-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-red-600"
+              className="w-full px-3 py-2 text-gray-900 bg-gray-150 rounded-md focus:outline-none focus:ring-2 focus:ring-red-600"
+              style={{borderRadius:5}}
+              placeholder='Enter your Name'
               required
             />
           </div>
           <div className="mb-6">
             <label htmlFor="email" className="block mb-2 text-sm font-medium">
-              Email
+              Email*
             </label>
             <input
               type="email"
               id="email"
               name="email"
-              className="w-full px-3 py-2 text-gray-900 bg-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-red-600"
+              className="w-full px-3 py-2 text-gray-900 bg-gray-150 rounded-md focus:outline-none focus:ring-2 focus:ring-red-600"
+              style={{borderRadius:5}}
+              placeholder='Enter your Email'
               required
             />
           </div>
           <div className="mb-6">
             <label htmlFor="message" className="block mb-2 text-sm font-medium">
-              Message
+              Message*
             </label>
             <textarea
               id="message"
               name="message"
               rows={4}
-              className="w-full px-3 py-2 text-gray-900 bg-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-red-600"
+              className="w-full px-3 py-2 text-gray-900 bg-gray-150 rounded-md focus:outline-none focus:ring-2 focus:ring-red-600 "
+              style={{borderRadius:5}}
+              placeholder='Drop your message'
               required
             ></textarea>
           </div>
@@ -107,7 +113,7 @@ function Details(){
           <span className="font-semibold">Email:</span> teaminferno@dtu.ac.in
         </p>
         <p>
-          <span className="font-semibold">Working Hours:</span> We are open 24 hours
+          <span className="font-semibold">Working Hours:</span> We're open 24 hours
         </p>
       </div>
 
