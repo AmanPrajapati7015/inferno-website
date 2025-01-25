@@ -17,7 +17,7 @@ const teamMembers = [
     name: 'Rachit Sharma',
     role: 'Team Manager',
     image: '/photosenior/rachit.jpeg',
-    // linkedin: 'https://www.linkedin.com/in/bobwilliams',
+    linkedin: 'https://www.linkedin.com/in/bobwilliams',
     // bio: 'Bob designs power systems and communication modules for our rover.'
   },
 
