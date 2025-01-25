@@ -39,7 +39,7 @@ const teamMembers = [
 
   {
     name: 'Ayush Yadav',
-    role: 'Electrical Lead',
+    role: 'Embedded Lead Lead',
     image: '/photosenior/aayush.jpg',
     linkedin: 'https://www.linkedin.com/in/bobwilliams',
     // bio: 'Bob designs power systems and communication modules for our rover.'
