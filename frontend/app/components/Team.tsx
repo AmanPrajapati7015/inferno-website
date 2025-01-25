@@ -10,14 +10,14 @@ const teamMembers = [
     name: 'Garvit Jain',
     role: 'Team Lead and Mechanical Lead',
     image: '/photosenior/garvit.jpg',
-    linkedin: 'https://www.linkedin.com/in/janedoe',
+    linkedin: 'https://www.linkedin.com/in/garvit-jain-508860144/',
     // bio: 'Jane is an experienced robotics engineer with a passion for Mars exploration.'
   },
   {
     name: 'Rachit Sharma',
     role: 'Team Manager',
     image: '/photosenior/rachit.jpeg',
-    linkedin: 'https://www.linkedin.com/in/bobwilliams',
+    linkedin: 'https://www.linkedin.com/in/rachit-sharma-748379284/',
     // bio: 'Bob designs power systems and communication modules for our rover.'
   },
 
@@ -25,7 +25,7 @@ const teamMembers = [
     name: 'Samriddh Sinha',
     role: 'Vice Captain and Science Lead',
     image: '/photosenior/samriddh.jpg',
-    linkedin: 'https://www.linkedin.com/in/bobwilliams',
+    linkedin: 'https://www.linkedin.com/in/samriddh-sinha-5177b52a7/',
     // bio: 'Bob designs power systems and communication modules for our rover.'
   },
 
@@ -33,7 +33,7 @@ const teamMembers = [
     name: 'Hitesh Nanda',
     role: 'Team Treasurer',
     image: '/photosenior/hitesh.jpg',
-    linkedin: 'https://www.linkedin.com/in/bobwilliams',
+    linkedin: 'https://www.linkedin.com/in/hitesh-nanda-762620261/',
     // bio: 'Bob designs power systems and communication modules for our rover.'
   },
 
@@ -41,21 +41,21 @@ const teamMembers = [
     name: 'Ayush Yadav',
     role: 'Embedded Lead Lead',
     image: '/photosenior/aayush.jpg',
-    linkedin: 'https://www.linkedin.com/in/bobwilliams',
+    linkedin: 'https://www.linkedin.com/in/ayush-yadav-b1a818257/',
     // bio: 'Bob designs power systems and communication modules for our rover.'
   },
   {
     name: 'Anshumaan',
     role: 'Software Lead',
     image: '/photosenior/anshuman.jpg',
-    linkedin: 'https://www.linkedin.com/in/johnsmith',
+    linkedin: 'https://www.linkedin.com/in/anshumaan-gupta/',
     // bio: 'John specializes in designing robust mechanical systems for extreme environments.'
   },
   {
     name: 'Satyam Gupta',
     role: 'Autonomus Lead',
     image: '/photosenior/satyam.jpg',
-    linkedin: 'https://www.linkedin.com/in/alicejohnson',
+    linkedin: 'https://www.linkedin.com/in/satyam-gupta-61b210253/',
     // bio: 'Alice is an AI expert, focusing on autonomous navigation systems.'
   },
 ]

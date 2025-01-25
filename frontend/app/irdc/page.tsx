@@ -47,7 +47,7 @@ export default function RoverChallenge() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Providing students with a real-world interdisciplinary engineering experience, combining practical enginerring skills with soft skills, including business planning ans project management.
+             Challenging university students to conceptualise and design Next-Gen Rovers for exploration of extra-terrestrial bodies.
             </motion.p>
           </motion.div>
         </section>
@@ -96,7 +96,7 @@ export default function RoverChallenge() {
                 <CalendarDays className="h-8 w-8 text-blue-600" />
                 <div>
                   <h3 className="font-semibold">Date</h3>
-                  <p>Jan 28 - Feb 2, 2025</p>
+                  <p>Feb 1, 2025</p>
                 </div>
               </CardContent>
             </Card>
@@ -119,8 +119,8 @@ export default function RoverChallenge() {
               <CardContent className="flex items-center gap-4 p-6">
                 <Drone className="h-8 w-8 text-blue-600" />
                 <div>
-                  <h3 className="font-semibold">New Feature</h3>
-                  <p>Drone Integration</p>
+                  <h3 className="font-semibold">Brownie Points</h3>
+                  <p>Think Creative</p>
                 </div>
               </CardContent>
             </Card>
@@ -137,15 +137,11 @@ export default function RoverChallenge() {
           <h2 className="text-3xl font-bold mb-6">About the Competition</h2>
           <div className="prose prose-lg max-w-none">
             <p className="text-gray-600 mb-6">
-              SPROS IRC is a space robotics engineering competition. It challenges university students to conceptualise,
-              design, develop and operate an astronaut-assistive next-generation space Rover and perform specific
-              missions in Mars simulated conditions.
-            </p>
-            <p className="text-gray-600 mb-6">
-              The objective of the competition is to provide students with a real-world interdisciplinary engineering
-              experience, combining practical engineering skills with soft skills, including business planning and
-              project management.
-            </p>
+            Teams are supposed to carefully plan each sub-system of the Rover considering various extra-terrestrial parameters in design. This online research-oriented competition is designed for students to explore their mind and spark the innovative design thinking of individuals, free from constraints on available physical resources.             </p>
+            {/* <p className="text-gray-600 mb-6">
+            
+The objective of the competition is to provide students with a real-world interdisciplinary engineering experience, combining practical engineering skills with soft skills, including business planning and project management. 
+            </p> */}
           </div>
         </motion.section>
 
@@ -162,24 +158,43 @@ export default function RoverChallenge() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <MissionCard
               icon={Flask}
-              title="Mission 1: ABEx"
-              description="Astrobiology Expedition: The rover acts as a Mobile Science Laboratory to collect samples and perform analysis to seek signs of life."
+              title="Mission 1"
+              description="Explore the unique region of the Moon near the Shiv Shakti Point"
               />
             <MissionCard
               icon={Robot}
-              title="Mission 2: R&DO"
-              description="Reconnaissance and Delivery Operation: The rover reconnaissance an area to search, locate, pick up, and deliver objects to specific locations."
+              title="Mission 2"
+              description="Conduct a visual reconnaissance of the region by navigating and traversing successfully
+through the diferent terrains of this region."
             />
             <MissionCard
               icon={Cog}
-              title="Mission 3: ID&MO"
-              description="Instrument Deployment and Maintenance Operation: The rovers traverses a short distance to operate on a mock-up instrument panel to perform a set of precise operations."
+              title="Mission 3"
+              description="Conduct various scientific experiments (biological, geological, etc.) and analysis,
+including in-situ analysis with the Rover for signs of microbial life, habitability, and
+characteristics."
             />
             <MissionCard
               icon={Drone}
-              title="Mission 4: AutEx"
-              description="Autonomous Mission: The rover is required to traverse between markers across moderately rugged terrain autonomously using arrow signs. Teleoperation is not allowed in this mission."
+              title="Mission 4"
+              description="Conduct various scientific experiments (biological, geological, etc.) and analysis,
+including in-situ analysis with the Rover for signs of microbial life, habitability, and
+characteristics."
             />
+
+<MissionCard
+              icon={Flask}
+              title="Mission 5"
+              description="Characterise surface and subsurface physical properties and mineralogical
+composition of the layered landscape."
+              />
+
+<MissionCard
+              icon={Flask}
+              title="Mission 6"
+              description="Characterise the climate and local weather of the landing site, and conduct an
+aerobiology investigation."
+              />
           </div>
         </section>
       </main>

@@ -7,7 +7,7 @@ const roverFeatures = [
   { title: 'Advanced Mobility', description: 'Six-wheel drive system with independent suspension for unparalleled terrain navigation' },
   { title: 'Scientific Suite', description: 'State-of-the-art analytical instruments for comprehensive Martian surface analysis' },
   { title: 'Autonomous Navigation', description: 'AI-powered pathfinding and obstacle avoidance for efficient exploration' },
-  { title: 'Solar Power System', description: 'High-efficiency solar panels and advanced power management for extended missions' },
+  // { title: 'Robust Electrical System', description: 'Adva' },
   { title: 'Robotic Arm', description: 'Versatile manipulator for sample collection and instrument deployment' },
 ]
 
@@ -26,7 +26,7 @@ export default function RoverDetails() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5 }}
         >
-          About Our Rover: AROHN
+          Our Latest Iteration : AROHN
         </motion.h1>
         <div className="flex flex-col md:flex-row items-center justify-between mb-16">
           <motion.div
@@ -50,7 +50,7 @@ export default function RoverDetails() {
             transition={{ duration: 0.5, delay: 0.4 }}
           >
             <p className="text-lg text-gray-300 mb-6">
-              AROHN (Advanced Rover for Harsh Otherworldly Navigation) is our state-of-the-art Mars rover, designed and built by the talented team at Inferno. With its cutting-edge technology and robust design, AROHN is equipped to tackle the challenges of Martian exploration.
+              AROHN is our state-of-the-art Mars rover, designed and built by the talented team at Inferno. With its cutting-edge technology and robust design, AROHN is equipped to tackle the challenges of Martian exploration.
             </p>
             <p className="text-lg text-gray-300">
               Our rover combines advanced mobility, scientific capabilities, and autonomous systems to push the boundaries of what's possible in space robotics.

@@ -47,7 +47,7 @@ export default function RoverChallenge() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Providing students with a real-world interdisciplinary engineering experience, combining practical enginerring skills with soft skills, including business planning ans project management.
+             Challenging university students to conceptualise, design, develop and operate an astronaut-assistive next-generation space drone and perform specific missions in Mars simulated conditions. 
             </motion.p>
           </motion.div>
         </section>
@@ -96,7 +96,7 @@ export default function RoverChallenge() {
                 <CalendarDays className="h-8 w-8 text-blue-600" />
                 <div>
                   <h3 className="font-semibold">Date</h3>
-                  <p>Jan 28 - Feb 2, 2025</p>
+                  <p>Jan 31 - Feb 2, 2025</p>
                 </div>
               </CardContent>
             </Card>
@@ -120,7 +120,7 @@ export default function RoverChallenge() {
                 <Drone className="h-8 w-8 text-blue-600" />
                 <div>
                   <h3 className="font-semibold">New Feature</h3>
-                  <p>Drone Integration</p>
+                  <p>Onboard Science Module</p>
                 </div>
               </CardContent>
             </Card>
@@ -137,14 +137,10 @@ export default function RoverChallenge() {
           <h2 className="text-3xl font-bold mb-6">About the Competition</h2>
           <div className="prose prose-lg max-w-none">
             <p className="text-gray-600 mb-6">
-              SPROS IRC is a space robotics engineering competition. It challenges university students to conceptualise,
-              design, develop and operate an astronaut-assistive next-generation space Rover and perform specific
-              missions in Mars simulated conditions.
+            Space drones provide multiple advantages over rovers, such as better reach and range. It is easier for drones to reach places off-limit to the rovers. In addition to solo exploration, the drones can act as wings to the rover and explore together. 
             </p>
             <p className="text-gray-600 mb-6">
-              The objective of the competition is to provide students with a real-world interdisciplinary engineering
-              experience, combining practical engineering skills with soft skills, including business planning and
-              project management.
+            The objective of the competition is to provide students with a real-world interdisciplinary engineering experience, combining practical engineering skills with soft skills, including business planning and project management. 
             </p>
           </div>
         </motion.section>
@@ -162,24 +158,24 @@ export default function RoverChallenge() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <MissionCard
               icon={Flask}
-              title="Mission 1: ABEx"
-              description="Astrobiology Expedition: The rover acts as a Mobile Science Laboratory to collect samples and perform analysis to seek signs of life."
+              title="Mission 1: SCIENCE MISSION"
+              description="The mission involves deploying drones to collect atmospheric data and detailed images from three locations at different elevations, simulating Martian conditions. Teams will analyze and compare findings with Mars' atmosphere and present their results to judges."
               />
             <MissionCard
               icon={Robot}
-              title="Mission 2: R&DO"
-              description="Reconnaissance and Delivery Operation: The rover reconnaissance an area to search, locate, pick up, and deliver objects to specific locations."
+              title="Mission 2: NAVIGATION MISSION"
+              description="The drone will guide a fictitious Mars rover to optimal paths while avoiding obstacles like craters, rocks, and loose soil. It must locate orange marker cones (up to 400m from the base station) and map the best routes, earning points for marker identification and path planning."
             />
             <MissionCard
               icon={Cog}
-              title="Mission 3: ID&MO"
-              description="Instrument Deployment and Maintenance Operation: The rovers traverses a short distance to operate on a mock-up instrument panel to perform a set of precise operations."
+              title="Mission 3: PIMA"
+              description="Teams will present their drone development journey to judges, focusing on system engineering, project management, and lessons learned. The presentation will include planning, manufacturing, testing, and potential spin-offs, with opportunities for judges to ask detailed questions."
             />
-            <MissionCard
+            {/* <MissionCard
               icon={Drone}
               title="Mission 4: AutEx"
               description="Autonomous Mission: The rover is required to traverse between markers across moderately rugged terrain autonomously using arrow signs. Teleoperation is not allowed in this mission."
-            />
+            /> */}
           </div>
         </section>
       </main>

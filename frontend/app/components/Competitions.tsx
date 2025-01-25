@@ -12,13 +12,13 @@ const competitions = [
     date: "28th January - 2nd February, 2025",
   },
   {
-    link: '/irc',
+    link: '/isdc',
     name: "International Space Drone Challenge 2025",
     description: "To be held on 1st February, 2025, it challenges university students to conceptualise, design, develop and operate an astronaut-assistive next-generation space drone and perform specific missions in Mars simulated conditions.",
     date: "1st February, 2025",
   },
   {
-    link: '/irc',
+    link: '/irdc',
     name: "International Rover Design Challenge, 2025",
     description: "It is an online space engineering design and research competetion by Space Robotics Society.",
     date: "2nd February, 2025",
