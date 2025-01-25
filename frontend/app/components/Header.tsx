@@ -9,6 +9,8 @@ const menuItems = [
   { name: 'Home', path: '/' },
   { name: 'Mission', path: '/mission' },
   { name: 'IRC', path: '/irc' },
+  { name: 'IRDC', path: '/irdc' },
+  { name: 'ISDC', path: '/isdc' },
   { name: 'About Rover', path: '/about-rover' },
   { name: 'Achievements', path: '/achievements' },
   { name: 'Sponsorship', path: '/sponsorship' },

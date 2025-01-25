@@ -52,9 +52,9 @@ export default function Competitions() {
           </motion.h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {competitions.map((competition, index) => (
-              <Link href={competition.link}>
+              <Link key={index} href={competition.link}>
                 <motion.div
-                  key={competition.name}
+                  key={index}
                   className="bg-gray-800 p-6 rounded-lg"
                   initial={{ opacity: 0, y: 20 }}
                   animate={inView ? { opacity: 1, y: 0 } : {}}
