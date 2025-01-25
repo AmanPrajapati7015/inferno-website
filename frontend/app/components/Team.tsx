@@ -11,14 +11,14 @@ const teamMembers = [
     role: 'Team Lead and Mechanical Lead',
     image: '/photosenior/garvit.jpg',
     linkedin: 'https://www.linkedin.com/in/janedoe',
-    bio: 'Jane is an experienced robotics engineer with a passion for Mars exploration.'
+    // bio: 'Jane is an experienced robotics engineer with a passion for Mars exploration.'
   },
   {
     name: 'Rachit Sharma',
     role: 'Team Manager',
     image: '/photosenior/rachit.jpeg',
-    linkedin: 'https://www.linkedin.com/in/bobwilliams',
-    bio: 'Bob designs power systems and communication modules for our rover.'
+    // linkedin: 'https://www.linkedin.com/in/bobwilliams',
+    // bio: 'Bob designs power systems and communication modules for our rover.'
   },
 
   {
@@ -26,7 +26,7 @@ const teamMembers = [
     role: 'Vice Captain and Science Lead',
     image: '/photosenior/samriddh.jpg',
     linkedin: 'https://www.linkedin.com/in/bobwilliams',
-    bio: 'Bob designs power systems and communication modules for our rover.'
+    // bio: 'Bob designs power systems and communication modules for our rover.'
   },
 
   {
@@ -34,7 +34,7 @@ const teamMembers = [
     role: 'Team Treasurer',
     image: '/photosenior/hitesh.jpg',
     linkedin: 'https://www.linkedin.com/in/bobwilliams',
-    bio: 'Bob designs power systems and communication modules for our rover.'
+    // bio: 'Bob designs power systems and communication modules for our rover.'
   },
 
   {
@@ -42,21 +42,21 @@ const teamMembers = [
     role: 'Electrical Lead',
     image: '/photosenior/aayush.jpg',
     linkedin: 'https://www.linkedin.com/in/bobwilliams',
-    bio: 'Bob designs power systems and communication modules for our rover.'
+    // bio: 'Bob designs power systems and communication modules for our rover.'
   },
   {
     name: 'Anshumaan',
     role: 'Software Lead',
     image: '/photosenior/anshuman.jpg',
     linkedin: 'https://www.linkedin.com/in/johnsmith',
-    bio: 'John specializes in designing robust mechanical systems for extreme environments.'
+    // bio: 'John specializes in designing robust mechanical systems for extreme environments.'
   },
   {
     name: 'Satyam Gupta',
     role: 'Autonomus Lead',
     image: '/photosenior/satyam.jpg',
     linkedin: 'https://www.linkedin.com/in/alicejohnson',
-    bio: 'Alice is an AI expert, focusing on autonomous navigation systems.'
+    // bio: 'Alice is an AI expert, focusing on autonomous navigation systems.'
   },
 ]
 
