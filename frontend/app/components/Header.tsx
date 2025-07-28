@@ -15,13 +15,13 @@ const menuItems = [
   { name: 'Achievements', path: '/achievements' },
   { name: 'Sponsorship', path: '/sponsorship' },
   { name: 'Contact us', path: '/contact-us' },
-  {
-    name: 'More',
-    submenu: [
-      { name: 'Our Team', path: '/our-team' },
-      { name: 'Timeline', path: '/timeline' }
-    ],
-  },
+  // {
+  //   name: 'More',
+  //   submenu: [
+  //     { name: 'Our Team', path: '/our-team' },
+  //     { name: 'Timeline', path: '/timeline' }
+  //   ],
+  // }, //removed more dropdown on vignesh's request
 ]
 
 export default function Header() {
@@ -55,7 +55,7 @@ export default function Header() {
         <ul className="flex space-x-6 items-center">
           {menuItems.map((item) => (
             <motion.li key={item.name} whileHover={{ scale: 1.05 }}>
-              {item.submenu ? (
+              {/* {item.submenu ? (
                 <div className="relative">
                   <button
                     className="text-sm font-medium hover:text-red-600 transition-colors flex items-center"
@@ -82,7 +82,10 @@ export default function Header() {
                 <Link href={item.path} className="text-sm font-medium hover:text-red-600 transition-colors">
                   {item.name}
                 </Link>
-              )}
+              )} */}
+              <Link href={item.path} className="text-sm font-medium hover:text-red-600 transition-colors">
+                  {item.name}
+              </Link>
             </motion.li>
           ))}
         </ul>

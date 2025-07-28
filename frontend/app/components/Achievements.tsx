@@ -5,6 +5,16 @@ import { useInView } from 'react-intersection-observer'
 
 const achievements = [
   {
+    year: '2025',
+    title: 'Best Project Management and Business Plan in IRC 2025',
+    description: 'Received Award for PIMA in the International Rover Challenge 2024 and bagged 11th position globally.'
+  },
+  {
+    year: '2025',
+    title: 'Ranked 7th in ISDC 2025',
+    description: 'Ranked 7th in International Space Drone Challenge 2025 held in BITS Pilani, Goa Campus, with our 1st iteration of Space Drones - Jatāyu'
+  },
+  {
     year: '2024',
     title: 'Best Project Management in IRC 2024',
     description: 'Received Award for  Best Project Management in the International Rover Challenge 2024 and bagged 4th position globally.'

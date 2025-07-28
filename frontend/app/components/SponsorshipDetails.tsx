@@ -5,10 +5,10 @@ import { useInView } from 'react-intersection-observer'
 import Marquee from './Marquee'
 
 const sponsorshipLevels = [
-  { name: 'Platinum', amount: '₹500,000 and above', benefits: ['Large logo on rover', 'Prominent website placement', 'VIP access to all events', 'Personalized team demonstration'] },
-  { name: 'Gold', amount: '₹250,000 - ₹499,999', benefits: ['Medium logo on rover', 'Website recognition', 'Invitation to special events', 'Team merchandise package'] },
-  { name: 'Silver', amount: '₹100,000 - ₹249,999', benefits: ['Small logo on rover', 'Website mention', 'Team updates and newsletter', 'Certificate of appreciation'] },
-  { name: 'Bronze', amount: 'Up to ₹99,999', benefits: ['Name listed on website', 'Team updates and newsletter', 'Social media shoutout'] },
+  { name: 'Gold', amount: '₹100,000+', benefits: ['Large logo on rover', 'Website recognition', 'Invitation to special events', 'Team merchandise package'] },
+  { name: 'Silver', amount: '₹60,000+', benefits: ['Medium logo on rover', 'Website mention', 'Team updates and newsletter', 'Certificate of appreciation'] },
+  { name: 'Bronze', amount: '₹20,000+', benefits: ['Name listed on website', 'Team updates and newsletter', 'Social media shoutout'] },
+  { name: 'Collaborative ', amount: '', benefits: ['Small logo on rover', 'Prominent website placement', 'VIP access to all events', 'Personalized team demonstration'] },
 ]
 
 
